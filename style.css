@@ -26,7 +26,7 @@ h1{
 h3{
   margin: 0;
   font-size: 16px;
-  color: #b1b1b1;
+  color: #6b6b6b;
   font-weight: 300;
 }
 .container {
@@ -52,7 +52,7 @@ h3{
 }
 .rabbit,
 .portal {
-  fill: #f4364c;;
+  fill: #f4364c;
 }
 
 /* .jon-group:hover .jon {
@@ -83,17 +83,22 @@ h3{
   padding: 0;
   gap: 1rem;
   justify-items: space-between;
+  align-items: center;
 }
 
 .social-links a{
   color: #1b1b1b;
 }
+
 .icon{
   width: 32px;
   height: 32px;
   fill: #1b1b1b;
+  transition: all 350ms cubic-bezier(0.19, 1, 0.22, 1);
 }
-
+.social-links a:hover .icon{
+  fill: #f4364c;
+}
 
 @keyframes jon-hop {
   0% {
